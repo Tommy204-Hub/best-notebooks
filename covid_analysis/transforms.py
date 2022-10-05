@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Filter by country code. If not specified, use "USA." huy11
+# Filter by country code. If not specified, use "USA." huy11 them
 def filter_country(pdf, country="USA"):
   pdf = pdf[pdf.iso_code == country]
   return pdf
