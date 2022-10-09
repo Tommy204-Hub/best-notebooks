@@ -1,8 +1,4 @@
 # Databricks notebook source
-# MAGIC %run ../Includes/Classroom-Setup-06.1
-
-# COMMAND ----------
-
 def autoload_to_table(data_source, source_format, table_name, checkpoint_directory):
     query = (spark.readStream
                   .format("cloudFiles")
