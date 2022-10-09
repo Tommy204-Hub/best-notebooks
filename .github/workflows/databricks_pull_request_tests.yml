@@ -18,7 +18,7 @@ jobs:
       - name: Run test notebook
         uses: databricks/run-notebook@main
         with:
-          databricks-token: dapi273be5b23ff37ca1226a2e23ab9f345c
+          databricks-token: dapi9092fab4a9f3588b677e852fcbea5311
 
           local-notebook-path: notebooks/run_unit_tests.py
 
